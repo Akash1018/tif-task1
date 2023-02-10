@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Component/home.css'
 import icon from '../static/icon.png'
-import cover from '../static/cover.png'
+import cover from '../static/cover1.png'
 
 const Home = () => {
   return (
@@ -17,7 +17,6 @@ const Home = () => {
         <div className='pic'>
             
             <img className='cover' src={cover} />
-            <button className='tap'>Get in Touch</button>
 
         </div>
     </div>

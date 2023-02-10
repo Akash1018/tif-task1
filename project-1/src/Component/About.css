@@ -79,7 +79,7 @@
 }
 
 /* Media Query for Mobile Devices */
-@media (max-width: 480px) {
+@media (max-width: 400px) {
     .abouti{
         display: none;
     }
@@ -107,6 +107,38 @@
     
     .button{
         margin-left: 32%;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 600px)  {
+    .abouti{
+        display: none;
+    }
+    .intr{
+        display:block;
+        align-items: center;
+        padding: 2rem 2px;  
+        width: 100%;
+    }
+    .details{
+        text-align: center;
+        padding: 1rem 0rem;
+        width: 100%;
+    }
+    .head{
+        font-size: 28px;
+        width: 100%;
+    }
+    
+    .para{
+        font-size: 14px;
+        width: 100%;
+        padding: 10px 1px;
+    }
+    
+    .button{
+        margin-left: 34%;
         font-size: 14px;
     }
 }
@@ -146,7 +178,36 @@
   
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
+    .abouti{
+
+        width: 40%;
+    }
+    .intr{
+        display:flex;
+        align-items: center;
+        padding: 2rem 2px;  
+        width: 100%;
+    }
+    .details{
+        
+        padding: 1rem 2rem;
+        width: 80%;
+    }
+    .head{
+        font-size: 28px;
+        width: 100%;
+    }
     
+    .para{
+        font-size: 14px;
+        width: 100%;
+        padding: 10px 1px;
+    }
+    
+    .button{
+        margin-left: 32%;
+        font-size: 14px;
+    }
 }
   
 /* Media Query for Laptops and Desktops */

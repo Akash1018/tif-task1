@@ -27,13 +27,13 @@ html{
     display: flex;
     flex-direction: column;
     margin: 111px 0px 370px 0px;
-    width: 50%;
+    width: 55%;
 }
 
 .heading{
     font-style: normal;
     font-weight: 900;
-    font-size: 70px;
+    font-size: 65px;
     color: #0E2368;
 }
 
@@ -68,30 +68,11 @@ html{
 }
 .cover{
 width: 750px;
-height: 839px;
+height: 800px;
 z-index: -1;
 object-fit: cover;
 border-radius: 0px 0px 0px 198.902px;
 }
-
-.tap{
-    margin-top: 30px;
-    position: absolute;
-    width: 200px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 36px;
-/* identical to box height, or 225% */
-
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    height: 42px;
-    left: 90rem;
-    border: 1px solid #FFFFFF;
-    border-radius: 21px;
-    background: #E23744;
-}
-
 
 
 /* Media Query for Mobile Devices */
@@ -106,6 +87,7 @@ border-radius: 0px 0px 0px 198.902px;
     }
     .cover{
     width: 100%;
+    margin-top: 10px;
     margin-left: 0px;
     height: 100%;
     border-radius:0px;
@@ -173,7 +155,7 @@ border-radius: 0px 0px 0px 198.902px;
         }
         .cover{
         width: 417px;
-        
+        margin-top: 10px;
         height: 100%;
         border-radius:0px
         }
@@ -209,7 +191,7 @@ border-radius: 0px 0px 0px 198.902px;
             align-items: center;
             margin: 0px 0px 0px 0px;
             width: 100%;
-            padding: 4rem 1rem;
+            padding: 4rem 0rem;
         }
         .content{
             margin-left: 0px;
@@ -228,15 +210,134 @@ border-radius: 0px 0px 0px 198.902px;
   
 /* Media Query for Tablets Ipads portrait mode */
 @media (min-width: 768px) and (max-width: 1024px){
-    
+    .icon{
+        display: none;
+    }
+    .home{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cover{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+    height: 100%;
+    border-radius:0px;
+    overflow:hidden
+    }
+    .pic{
+        margin-top: -10px;
+        display: flex;  
+    }
+    .heading{
+        font-size: 2.5rem;
+        width: 40%;
+        text-align: center;
+        padding: 2rem 2rem
+    }
+    .about{
+        font-size: 2rem;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        width: 80%;
+        text-align: center;
+    }
+    .info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+        width: 95%;
+        padding: 4rem 1rem;
+    }
+    .content{
+       
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .click{
+        font-size: 13px;
+        padding: 14px 44px;
+        gap: 7px;
+        width: 25%;
+        height: 1%;
+        
+    }
 }
   
 /* Media Query for Laptops and Desktops */
 @media (min-width: 1025px) and (max-width: 1280px){
-  
+      .icon{
+        display: none;
+    }
+    .home{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cover{
+    width: 100%;
+    margin-left: 0px;
+    height: 100%;
+    border-radius:0px;
+    overflow:hidden
+    }
+    .tap{
+        margin-top: 20px;
+        width: 25%;
+        font-size: 10px;
+        line-height: 36px;
+        height: 35px;
+        left: 17rem;
+    }
+    .pic{
+        margin-top: -10px;
+        display: flex;  
+    }
+    .heading{
+        font-size: 2rem;
+        width: 60%;
+        text-align: center;
+        padding: 2rem 2rem
+    }
+    .about{
+        font-size: 1rem;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        width: 80%;
+        text-align: center;
+    }
+    .info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+        width: 95%;
+        padding: 4rem 1rem;
+    }
+    .content{
+       
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .click{
+        font-size: 13px;
+        padding: 14px 44px;
+        gap: 7px;
+        width: 50%;
+        height: 1%;
+        
+    }
 }
   
 /* Media Query for Large screens */
 @media (min-width: 1281px) {
-    
+   
 }
