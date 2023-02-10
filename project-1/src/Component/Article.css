@@ -341,6 +341,13 @@ border: 1px solid #424961
 }
 
 /* Media Query for Large screens */
-@media (min-width: 1281px) {
-  
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .card-top > img {
+    width: 290px;
+    object-fit: cover;
+    height: 257px;
+    left: 135px;
+    top: 1766px;
+    border-radius: 21px;
+  }
 }
