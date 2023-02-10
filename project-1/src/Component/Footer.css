@@ -1,0 +1,129 @@
+body {
+  
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: #F8F8F8;
+    font-family: "Source Sans Pro";
+    width: 100%;
+    padding: 4rem 0rem;
+    overflow: hidden;
+}
+
+.contact{
+    width: 20%;
+    overflow: hidden;
+}
+
+.van{   
+
+    padding-top:5rem;
+    overflow: hidden;
+   
+}
+
+.footerHead{
+    font-weight: 600;
+font-size: 18.8433px;
+line-height: 27px;
+/* or 144% */
+
+letter-spacing: 0.03em;
+
+/* primary */
+
+color: #0E2368;
+overflow: hidden;
+}
+
+.footerPara{
+    font-weight: 400;
+font-size: 14.6559px;
+line-height: 23px;
+/* or 157% */
+overflow: hidden;
+
+
+color: #646874;
+
+}
+
+.Social{
+    font-weight: 600;
+font-size: 19px;
+line-height: 27px;
+/* identical to box height, or 142% */
+
+letter-spacing: 0.03em;
+
+color: #0E2368;
+}
+
+.fit{
+    display: flex;
+    justify-content: flex-start;
+    gap:20%;
+    align-items: start;
+    width: 100%;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .van{
+        margin: 0% 30%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content:none;
+        align-items: none;
+        background: #F8F8F8;
+        width: 100%;
+        padding: 1rem 0rem;
+    }
+    .contact{
+        width: 80%;
+        padding: 4rem 4rem;
+    }
+    .More{
+        padding: 0rem 4rem;
+    }
+    
+    .Social{
+        display: none;
+    }
+    
+    .last{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-self: center;
+    }
+    .fit{
+        justify-content: center;
+    }
+    
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    
+}

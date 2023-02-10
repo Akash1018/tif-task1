@@ -1,0 +1,242 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+html{
+    overflow-x: hidden;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Source Sans Pro";
+}
+
+.content{
+    margin-left: 100px;
+    margin-top: 33px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.icon{
+    width: 107px;
+    height: 83px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin: 111px 0px 370px 0px;
+    width: 50%;
+}
+
+.heading{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 70px;
+    color: #0E2368;
+}
+
+.about{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #444957;
+    margin-top: -26px;
+    margin-bottom: 41px;
+}
+
+.click{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    display: flex;
+    padding: 14px 34px;
+    gap: 7px;
+    width: 190px;
+    height: 63px;
+    background: #E23744;
+    border-radius: 34px;
+    border: none;
+}
+.pic{
+    margin-top: -10px;  
+}
+.cover{
+width: 750px;
+height: 839px;
+z-index: -1;
+object-fit: cover;
+border-radius: 0px 0px 0px 198.902px;
+}
+
+.tap{
+    margin-top: 30px;
+    position: absolute;
+    width: 200px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+/* identical to box height, or 225% */
+
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    height: 42px;
+    left: 90rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 21px;
+    background: #E23744;
+}
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 400px) {
+    .icon{
+        display: none;
+    }
+    .home{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cover{
+    width: 100%;
+    margin-left: 0px;
+    height: 100%;
+    border-radius:0px;
+    overflow:hidden
+    }
+    .tap{
+        margin-top: 20px;
+        width: 25%;
+        font-size: 10px;
+        line-height: 36px;
+        height: 35px;
+        left: 17rem;
+    }
+    .pic{
+        margin-top: -10px;
+        display: flex;  
+    }
+    .heading{
+        font-size: 2rem;
+        width: 60%;
+        text-align: center;
+        padding: 2rem 2rem
+    }
+    .about{
+        font-size: 1rem;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        width: 80%;
+        text-align: center;
+    }
+    .info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+        width: 95%;
+        padding: 4rem 1rem;
+    }
+    .content{
+       
+        margin-left: 0px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .click{
+        font-size: 13px;
+        padding: 14px 44px;
+        gap: 7px;
+        width: 50%;
+        height: 1%;
+        
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 401px) and (max-width: 600px) {
+        .icon{
+            display: none;
+        }
+        .home{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .cover{
+        width: 417px;
+        
+        height: 100%;
+        border-radius:0px
+        }
+        .tap{
+            margin-top: 20px;
+            width: 25%;
+            font-size: 10px;
+            line-height: 36px;
+            height: 35px;
+            left: 18.5rem;
+        }
+        .pic{
+            margin-top: -10px;
+            display: flex;  
+        }
+        .heading{
+            font-size: 2rem;
+            width: 60%;
+            text-align: center;
+            padding: 2rem 2rem
+        }
+        .about{
+            font-size: 1rem;
+            margin-top: -40px;
+            margin-bottom: 40px;
+            width: 80%;
+            text-align: center;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0px 0px 0px 0px;
+            width: 100%;
+            padding: 4rem 1rem;
+        }
+        .content{
+            margin-left: 0px;
+            margin-top: 0px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .click{
+            font-size: 20px;
+            width: 50%;
+            height: 1%;
+            
+        }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    
+}

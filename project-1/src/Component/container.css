@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+   flex-direction: column;
+   background: #FFFFFF;
+    border: 1.37039px solid rgba(147, 162, 211, 0.38);
+    border-radius: 20.937px;
+    padding: 2rem 2.5rem;
+}
+
+.chead{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    color: #0E2368;
+}
+
+.cpara{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+}
+
+.cbutton{
+    font-weight: 600;
+font-size: 16.4447px;
+line-height: 36px;
+/* identical to box height, or 216% */
+
+letter-spacing: 0.03em;
+
+color: #424961;
+background-color:#FFFFFF;
+border: 1px solid #424961;
+    border-radius: 21px;
+    padding: 0.5rem 0.5rem;
+}

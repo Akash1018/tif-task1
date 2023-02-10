@@ -1,0 +1,160 @@
+
+.intr{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 205px;
+    font-family: "Source Sans Pro";
+    background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%, rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+}
+
+.details{
+    padding: 100px 200px;
+}
+
+
+.head{
+    width: 422px;
+    height: 26px;
+    font-size: 45px;
+    line-height: 27px;
+    color: #0E2368;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.para{
+    width: 447px;
+    height: 138px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    /* or 180% */
+
+
+    /* body */
+
+    color: #444957;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 26px;
+    gap: 10px;
+    
+    width: 132px;
+    height: 42px;
+    
+    background: #E23744;
+    border-radius: 21px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 36px;
+    /* identical to box height, or 225% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    border: none;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .abouti{
+        display: none;
+    }
+    .intr{
+        display:block;
+        align-items: center;
+        padding: 2rem 2px;  
+        width: 100%;
+    }
+    .details{
+        text-align: center;
+        padding: 1rem 0rem;
+        width: 100%;
+    }
+    .head{
+        font-size: 28px;
+        width: 100%;
+    }
+    
+    .para{
+        font-size: 14px;
+        width: 100%;
+        padding: 10px 1px;
+    }
+    
+    .button{
+        margin-left: 32%;
+        font-size: 14px;
+    }
+}
+  
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    .abouti{
+        display: none;
+    }
+    .intr{
+        display:block;
+        align-items: center;
+        padding: 2rem 2px;  
+        width: 100%;
+    }
+    .details{
+        text-align: center;
+        padding: 1rem 0rem;
+        width: 100%;
+    }
+    .head{
+        font-size: 28px;
+        width: 100%;
+    }
+    
+    .para{
+        font-size: 14px;
+        width: 100%;
+        padding: 10px 1px;
+    }
+    
+    .button{
+        margin-left: 32%;
+        font-size: 14px;
+    }
+}
+  
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    
+}
+  
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px){
+  
+}
+  
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+    
+}
